@@ -6,7 +6,7 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "@/components/ui/carousel"
-import EventCard from "../eventcard";
+import EventCard from "../EventCard";
 
 const Slider = ({ list }) => {
   return (

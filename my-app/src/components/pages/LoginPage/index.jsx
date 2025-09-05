@@ -1,20 +1,13 @@
-import FooterSection from "../../custom_ui/footer";
-import NavigationMenu from "../../custom_ui/navigation_menu";
-import Banner from "./components/Banner";
-import Events from "./components/Events";
+import LoginForm from "./Form";
 
-const LandingPage = () => {
+const LoginPage = () => {
   return (
-    <div className="w-[100vw] h-[100vh] overflow-y-auto overflow-x-hidden relative">
-      <NavigationMenu />
-
-      <Banner />
-
-      <Events />
-
-      <FooterSection />
+    <div className="bg-muted flex min-h-svh flex-col items-center justify-center p-6 md:p-10">
+      <div className="w-full max-w-sm md:max-w-1xl">
+        <LoginForm />
+      </div>
     </div>
   )
-};
+}
 
-export default LandingPage;
+export default LoginPage;
