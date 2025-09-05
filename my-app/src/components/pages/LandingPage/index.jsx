@@ -1,7 +1,7 @@
-import FooterSection from "../../custom-ui/Footer";
-import NavigationMenu from "../../custom-ui/NavigationMenu";
-import Banner from "./components/Banner";
-import Events from "./components/Events";
+import FooterSection from "../../custom-ui/footer";
+import NavigationMenu from "../../custom-ui/navigation_menu";
+import Banner from "./components/banner";
+import Events from "./components/events";
 
 const LandingPage = () => {
   return (
